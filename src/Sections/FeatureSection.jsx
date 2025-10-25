@@ -4,7 +4,7 @@ const FeatureSection = () => {
   return (
     <div className='bg-white w-full md:h-[110vh] md:relative flex flex-col items-center md:block gap-8 md:gap-0'>
       <div className='md:absolute md:left-[10%] md:top-[10%] md:w-[750px] md:h-[500px] md:z-4 md:py-8'>
-        <img src="./images/desktop/image-interactive.jpg" alt="interactive-image" className='hidden md:block w-full h-full' />
+        <img src="/images/desktop/image-interactive.jpg" alt="interactive-image" className='hidden md:block w-full h-full' />
         <img src="/images/mobile/image-interactive.jpg" alt="interactive-image"  className='block md:hidden w-[300px] h-[200px] mt-8'/>
       </div>
       <div className='md:absolute md:top-[32%] md:right-[4%] md:z-5 md:w-[700px]'>
