@@ -1,0 +1,23 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
+@import "tailwindcss";
+
+
+/* "Josefin Sans" */
+ /* "Alata" */
+*{
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Grey-200: hsl(0, 0%, 85%);
+}
