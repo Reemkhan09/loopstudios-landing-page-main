@@ -9,7 +9,7 @@ const FooterSection = () => {
           <h1 className='text-white text-2xl font-bold'>loopstudios</h1>
           <div className='hidden md:flex gap-4'>
             <div className='relative group cursor-pointer'>
-              <img src={`${import.meta.env.BASE_URL}images/icon-facebook.svg`} alt="facebook" />
+              <img src="images/icon-facebook.svg" alt="facebook" />
               <span className='absolute -bottom-4 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
 

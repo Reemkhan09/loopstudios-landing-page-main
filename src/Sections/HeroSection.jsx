@@ -17,7 +17,7 @@ const HeroSection = () => {
     <div className='w-full relative'>
      
     <div className='md:h-[85vh] h-[80vh] w-full bg-center relative' style={{
-      backgroundImage: isMobile ? 'url("/images/mobile/image-hero.jpg")' : 'url("/images/desktop/image-hero.jpg")', 
+      backgroundImage: isMobile ? 'url("images/mobile/image-hero.jpg")' : 'url("images/desktop/image-hero.jpg")', 
        backgroundSize: isMobile ? 'cover' : 'cover',
          backgroundRepeat: 'no-repeat',
         
