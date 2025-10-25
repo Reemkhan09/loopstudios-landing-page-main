@@ -9,22 +9,22 @@ const FooterSection = () => {
           <h1 className='text-white text-2xl font-bold'>loopstudios</h1>
           <div className='hidden md:flex gap-4'>
             <div className='relative group cursor-pointer'>
-              <img src="/images/icon-facebook.svg" alt="facebook" />
+              <img src={`${import.meta.env.BASE_URL}images/icon-facebook.svg`} alt="facebook" />
               <span className='absolute -bottom-4 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
 
              <div className='relative group cursor-pointer'>
-              <img src="/images/icon-twitter.svg" alt="twitter" />
+              <img src="images/icon-twitter.svg" alt="twitter" />
               <span className='absolute -bottom-4 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
 
              <div className='relative group cursor-pointer'>
-              <img src="/images/icon-pinterest.svg" alt="pinterest" />
+              <img src="images/icon-pinterest.svg" alt="pinterest" />
               <span className='absolute -bottom-4 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
 
              <div className='relative group cursor-pointer'>
-              <img src="/images/icon-instagram.svg" alt="instagram" />
+              <img src="images/icon-instagram.svg" alt="instagram" />
               <span className='absolute -bottom-4 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
           </div>
@@ -54,22 +54,22 @@ const FooterSection = () => {
 
         <div className='flex md:hidden gap-4 md:ml-0 ml-16'>
             <div className='relative group cursor-pointer'>
-              <img src="/images/icon-facebook.svg" alt="facebook" className='w-5' />
+              <img src="images/icon-facebook.svg" alt="facebook" className='w-5' />
               <span className='absolute bottom-0 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
 
              <div className='relative group cursor-pointer'>
-              <img src="/images/icon-twitter.svg" alt="twitter" className='w-5' />
+              <img src="images/icon-twitter.svg" alt="twitter" className='w-5' />
               <span className='absolute bottom-0 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
 
              <div className='relative group cursor-pointer'>
-              <img src="/images/icon-pinterest.svg" alt="pinterest" className='w-5' />
+              <img src="images/icon-pinterest.svg" alt="pinterest" className='w-5' />
               <span className='absolute bottom-0 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
 
              <div className='relative group cursor-pointer'>
-              <img src="/images/icon-instagram.svg" alt="instagram" className='w-5' />
+              <img src="images/icon-instagram.svg" alt="instagram" className='w-5' />
               <span className='absolute bottom-0 left-0 h-0.5 bg-white group-hover:w-full transition-all duration-300'></span>
             </div>
           </div>

@@ -9,7 +9,7 @@ const MenuPageSection = ({onClose}) => {
           <div className='flex  gap-24 px-8 py-10'>
             <h1 className='text-3xl font-semibold'>loopstudios</h1>
             <div className='cross flex items-center' onClick={onClose}>
-              <img src="/images/icon-close.svg" alt="close" />
+              <img src={`${import.meta.env.BASE_URL}images/icon-close.svg`} alt="close" />
             </div>
           </div>
           <div className='menu flex flex-col gap-4 px-8'>

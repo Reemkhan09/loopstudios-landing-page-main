@@ -50,7 +50,7 @@ const NavBarSection = () => {
           
           {isMobile && ( <div className="md:hidden z-50 cursor-pointer" onClick={() => setIsOpen(true)}>
            <div className='w-6 h-4 '>
-           <img src="/images/icon-hamburger.svg"  alt="menu" className="w-full h-full" />
+           <img src="images/icon-hamburger.svg"  alt="menu" className="w-full h-full" />
            </div>
            
           </div>)}
